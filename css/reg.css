@@ -1,0 +1,145 @@
+
+.reg h1{
+	color: #682480;
+	font-size: 54px;
+    line-height: 20px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-family: Nunito;
+    font-style: normal; 
+}
+.reg input[type="text"],
+.reg input[type="password"],
+.reg input[type="email"]{
+	
+	border-radius: 50px;
+	border: 1px solid #C1C1C1;
+	width: 382px;
+	height: 50px;
+	margin: 15px;
+}
+.reg input[type="submit"]{
+	display: inline-block;
+	width: 233.5px;
+	height: 50px;
+	background: #E21876;
+	border-radius: 50px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-top: 40px;
+}
+.reg strong{
+	font-size: 16px;
+	line-height: 137%;
+	color: #000000;
+	margin-left: 10px;
+}
+.reg input{
+	margin-left: auto;
+	margin-right: auto;
+}
+.reg input[type="text"]{
+	padding-left: 25px;
+}
+.reg input[type="password"]{
+	padding-left: 25px;
+}	
+.reg input[type="email"]{
+	padding-left: 25px;
+}
+.checkbox-other input{
+	display: block;
+	z-index: -1;
+  	opacity: 0;
+}
+.checkbox-other>span {
+	display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.checkbox-other>span::before{
+	  content: ' ';
+	  display: inline-block;
+	  width: 20px;
+	  height: 20px;
+	  border: 1px solid #adb5bd;
+	  border-radius: 0.25em;
+	  margin-right: 0.5em;
+}
+.checkbox-other>input:not(:disabled):not(:checked)+span:hover::before {
+  border-color: #682480;
+}
+
+.checkbox-other>input:focus:not(:checked)+span::before {
+  border-color: #C1C1C1;
+}
+.checkbox-other>input:checked+span::before {
+  border-color: #E21876;
+  content: '✔';
+  align-items: center;
+}
+.checkbox-other>input:disabled+span::before {
+  background-color: #e9ecef;
+}
+
+/*.reg input[type="checkbox"]:before{
+	border: 1px solid #C1C1C1;
+	border-radius: 2px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	display: inline;
+	margin-right: 10px;
+}	*/	
+.reg .web{
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-family: rubic;
+
+}
+.reg .web li a img{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.myModal {
+    width: 830px;
+    height: 660px;
+  	margin: 0 auto;
+  	padding: 18px 9px;
+    border-radius: 4px;
+    background: #fafafa;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+  	margin: auto;
+    display: none;
+    opacity: 0;
+    z-index: 38;
+  	text-align: center;
+}
+.myModal .myModal__close {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    border: 1px solid #D8D8D8;
+    border-radius: 50%;
+    right: 61px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+  	font-size: 37px;
+  	color: #682480;
+  	font-family: Nunito;
+}
+.myOverlay {
+    z-index: 37;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    cursor :pointer;
+    display :none;
+}

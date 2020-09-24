@@ -1,0 +1,16 @@
+@font-face {
+	font-family:Source Sans Pro ;
+	src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+@font-face {
+	font-family: roboto;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: rubic ;
+	src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: Nunito;
+	src: url(../fonts/Nunito-ExtraBold.ttf);
+}
